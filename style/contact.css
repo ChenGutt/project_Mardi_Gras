@@ -1,0 +1,237 @@
+/*            THE HEADER            */
+
+.theHeader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10vh repeat(3, 1fr);
+    height: 100vh;
+    background-image: url(../images/AboutImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+
+}
+
+
+
+/*               CONTACT US FORM             */
+
+
+
+.form-container {
+    grid-column: 2/4;
+    grid-row: 2/5;
+    background-color: rgba(233, 233, 233, 0.788);
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 0.8rem;
+    font-family: var(--subFont);
+}
+
+.theForm {
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+.theForm h2 {
+    font-size: 1.8rem;
+    color: #555;
+}
+
+.theForm label,
+textarea {
+    display: block;
+    padding: 2px;
+    color: rgba(0, 0, 0, 0.733);
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: block;
+}
+
+
+#submitForm {
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0.6);
+    font-size: 0.7rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+#submitForm:hover {
+    background-color: rgba(128, 0, 128, 0.822);
+}
+
+.emptyField {
+    border-color: red !important;
+}
+
+.filled {
+    border-color: teal !important;
+}
+
+
+/*      CONTACT FORM POPUP UPON SUBMIT        */
+
+.popupWrapper {
+    background-color: hsla(0, 0%, 0%, 0.514);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 1000;
+}
+
+.popup {
+    font-family: var(--subFont);
+    width: 40%;
+    border-radius: 5px;
+    max-width: 80%;
+    height: 50vh;
+    margin: 13% auto;
+    background-color: rgba(255, 255, 255, 0.815);
+    position: relative;
+    padding: 5px;
+    overflow: auto;
+
+
+}
+
+.popupContent {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/formPopup.jpg);
+    background-size: cover;
+    height: 100%;
+
+}
+
+
+.popupContent p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 800;
+    color: #fff;
+    align-self: end;
+    padding-right: 20px;
+
+
+
+}
+
+/*                POP UP MEDIA QUERIES              */
+
+@media screen and (max-width: 768px) {
+    .popup {
+        width: 80%;
+        height: 30vh;
+    }
+
+    .popupContent p {
+        background-color: rgba(0, 0, 0, 0.774);
+        align-self: center;
+        padding-right: 0;
+        padding: 10px;
+    }
+}
+
+
+
+/*       MEDIA QUERIES FORM          */
+
+
+
+@media screen and (max-width:450px) {
+    .theHeader {
+        display: grid;
+        grid-template-rows: 10vh 1fr;
+        height: 100vh;
+    }
+
+    .nav-links {
+        height: 90vh;
+    }
+
+    .form-container {
+        width: 90%;
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+}
+
+@media (min-width:451px) and (max-width:650px) {
+    .theHeader {
+        display: grid;
+        grid-template-rows: 10vh 1fr;
+        height: 100vh;
+    }
+
+    .form-container {
+        width: 70%;
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+}
+
+@media (min-width:651px) and (max-width:786px) {
+    .theHeader {
+        display: grid;
+        grid-template-rows: 10vh 1fr;
+        height: 100vh;
+    }
+
+    .form-container {
+        width: 60%;
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+}
+
+@media (min-width:787px) and (max-width:1000px) {
+    .theHeader {
+        display: grid;
+        grid-template-rows: 10vh 1fr;
+        height: 100vh;
+    }
+
+    .form-container {
+        width: 40%;
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+}

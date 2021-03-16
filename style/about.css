@@ -1,0 +1,394 @@
+/*            HEADER DESIGN          */
+
+
+.theHeader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10vh repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/aboutUsImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+
+}
+
+.mainTitles {
+    grid-column: 1/7;
+    grid-row: 3/3;
+    text-align: center;
+
+}
+
+.mainTitles h1 {
+    color: #fff;
+    font-size: 4em;
+    font-family: var(--mainFont);
+    text-shadow: 8px 8px 10px #000;
+
+}
+
+.mainTitles p {
+    color: #fff;
+    font-size: 1.3rem;
+    text-shadow: 8px 8px 10px #000;
+}
+
+
+.scrollDownButton {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+
+.scrollDownButton button {
+    background-color: rgba(0, 0, 0, 0.63);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 8em;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+
+}
+
+.scrollDownButton button:hover {
+    box-shadow: 5px 5px 10px #fff,
+        -5px -5px 10px #fff;
+}
+
+.scrollDownButton button:active {
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.scrollDownButton button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    font-family: "roboto";
+    transition: all 0.6s ease-in-out;
+
+}
+
+
+
+/*           SECTION  ABOUT US           */
+
+
+.aboutUs {
+    background-color: #ccc;
+}
+
+/*      ABOUT US - OUR HISTORY      */
+
+#ourHistory {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 100px 200px;
+    width: 90vw;
+    margin: auto;
+    height: auto;
+    gap: 5px;
+    padding: 0 40px;
+}
+
+#ourHistory h2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--mainFont);
+}
+
+.divider {
+    width: 100px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    border-top: 4px solid purple;
+
+}
+
+#ourHistory p {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 0.9rem;
+    height: 100%;
+
+}
+
+#ourHistory img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 8px 8px 10px #000;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#ourHistory img:hover {
+    filter: grayscale(100);
+}
+
+
+
+/*      ABOUT US - OUR TRADITIONS      */
+
+
+
+#ourTrad {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 100px 200px;
+    width: 90vw;
+    margin: auto;
+    height: auto;
+    gap: 20px;
+    padding: 0 40px;
+
+}
+
+#ourTrad h2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--mainFont);
+}
+
+.divider {
+    width: 100px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    border-top: 4px solid purple;
+
+}
+
+#ourTrad p {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 0.9rem;
+}
+
+#ourTrad img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 8px 8px 10px #000;
+    transition: all 0.5s ease-in-out;
+}
+
+#ourTrad img:hover {
+    filter: grayscale(100);
+}
+
+
+
+/*      ABOUT US - OUR MAYOR      */
+
+
+
+
+#mayor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 100px 200px 100px;
+    width: 90vw;
+    margin: auto;
+    height: auto;
+    gap: 20px;
+    padding: 0 40px;
+}
+
+#mayor h2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--mainFont);
+}
+
+.divider {
+    width: 100px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+    border-top: 4px solid purple;
+
+}
+
+#mayor p {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 0.9rem;
+}
+
+#mayor img {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 8px 8px 10px #000;
+    transition: all 0.5s ease-in-out;
+}
+
+#mayor img:hover {
+    filter: grayscale(100);
+}
+
+
+
+
+/*       MEDIA QUERY FOR MOBILE - HEADER */
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .theHeader {
+        background-attachment: local;
+        height: 60vh;
+    }
+
+    .scrollDownButton {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scrollDownButton button {
+        background-color: rgba(0, 0, 0, 0.63);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        width: 10em;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+        border: none;
+        outline: 0;
+    }
+
+    .scrollDownButton button:hover {
+        box-shadow: 5px 5px 10px #fff,
+            -5px -5px 10px #fff;
+    }
+
+    .mainTitles {
+        grid-column: 2/4;
+        text-align: center;
+        align-self: center;
+
+    }
+
+
+    .mainTitles h1 {
+        color: #fff;
+        font-size: 2.3rem;
+        text-shadow: 8px 8px 10px #000;
+
+    }
+}
+
+
+/* ABOUT US ---- MEDIA QUERIES - FROM GRID TO FLEX */
+
+
+
+@media screen and (max-width: 768px) {
+
+    /*     OUR HISTORY     */
+
+    #ourHistory {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+
+    #ourHistory img {
+        width: 100vw;
+        height: 300px;
+        object-fit: cover;
+        align-self: center;
+        box-shadow: 8px 8px 10px #000;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /*     OUR TRADITIONS     */
+
+
+    #ourTrad {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+
+    .divider {
+        width: 100px;
+        justify-self: center;
+        border-top: 4px solid #000;
+    }
+
+    #ourTrad img {
+        width: 100vw;
+        height: 300px;
+        object-fit: cover;
+        align-self: center;
+        box-shadow: 8px 8px 10px #000;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+    /*      ABOUT US - OUR MAYOR      */
+
+    #mayor {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: auto;
+        height: auto;
+        gap: 20px;
+        padding: 0 40px;
+        margin-bottom: 50px;
+    }
+
+
+    .divider {
+        width: 100px;
+        display: block;
+        align-self: center;
+        grid-column: 1/3;
+        grid-row: 2/3;
+        border-top: 4px solid purple;
+    }
+
+
+    #mayor img {
+        width: 100vw;
+        height: 300px;
+        align-self: center;
+        object-fit: cover;
+        box-shadow: 8px 8px 10px #000;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+
+}

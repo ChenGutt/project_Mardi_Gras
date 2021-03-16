@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <!-- style -->
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/headerANDfooter.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css
+">
+
+</head>
+
+<body>
+    <a id="backToTop"><i class="fas fa-angle-up"></i></a>
+    <a id="toTrivia"><i class="fas fa-question"></i></a>
+
+    <header>
+
+        <!--   SECTION 1 HEADER -->
+
+        <div class="theHeader container">
+
+            <!--     NAVIGATION BAR      -->
+
+
+            <nav>
+                <div class="logo">
+                    <img src="images/logo2.png" alt="logo">
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+
+                </div>
+            </nav>
+
+            <!--     HEAD TITLE     -->
+
+            <!-- local weather  -->
+
+            <div id="weather"></div>
+
+            <!-- trivia game pops in a new window -->
+
+            <div id="trivia">
+                <button class="playBtn">&nbsp; Play Trivia</button>
+            </div>
+
+            <!-- main page title -->
+
+            <div class="mainTitles">
+                <p>New Orleans Represent</p>
+                <h1>Mardi Gras</h1>
+            </div>
+
+            <!--    scroll down button     -->
+
+            <div class="scrollDownButton">
+                <button><a href="#aboutUs">Start Here</a></button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!--  SECTION 2 - ABOUT US SHORTLY + IMAGE   -->
+
+
+    <section id="aboutUs">
+
+        <div class="contentWrapper">
+            <div>
+                <h1>What Is Mardi Gras</h1>
+
+            </div>
+
+            <div>
+                <p><em>"Mardi Gras Indians are secretive because only certain people
+                        participated in masking--people
+                        with
+                        questionable character. In the old day, the Indians were violent. Indians would meet on
+                        Mardi
+                        Gras;
+                        it was a day to settle scores."</em> - Larry Bannock, Past President, New Orleans Mardi
+                    Gras
+                    Indian
+                    Council
+                    <br> The good news is Mardi Gras day is no longer a day to "settle scores" among the Mardi Gras
+                    Indians. Now, Mardi Gras is all about music, parades, picnics, floats and excitement. It's one big
+                    holiday in New Orleans!
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="imgWrapper"></div>
+
+    </section>
+
+
+    <!--          IMAGE SLIDER              -->
+
+
+    <section id="imageSlider">
+
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="sliderImages/MardiGrasSlider1.jpg">
+                <div class="text">Colorful
+                    streets and decorated balconies creating a true festive atmosphere</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="sliderImages/MardiGrasSlider2.jpg">
+                <div class="text">The known Mardi Gras logo surrounded by colorful lights, hanged on a central
+                    building</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="sliderImages/MardiGrasSlider3.jpg">
+                <div class="text">Each Mardi Gras parade has a unique history and theme. Some have been around for
+                    decades</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="sliderImages/MardiGrasSlider4.jpg">
+                <div class="text">Masks in all colors and sizes will be piled up during the Mardi Gras celebrations
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="sliderImages/MardiGrasSlider5.jpg">
+                <div class="text">Unique costumes are one of the most known Mardi Gras characteristics </div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+
+    <!--  SECTION 4 - SPONSOR CARDS / SUPPLIERS + POPUPS  -->
+
+
+    <section id="sponsorCard">
+
+
+        <div class="cards">
+            <div id="card1" class="card card1">
+                <div class="card-container">
+                    <img src="supplierImages/museumOfDeadImg1.jpg" alt="museum of death logo">
+                </div>
+                <div class="details">
+                    <h3>Museum Of Death</h3>
+                    <p>Wide variety of art and artifacts surrounding the subject of death</p>
+                    <button class="btn btn1 card-btn">Read More</button>
+                </div>
+            </div>
+
+
+            <!--     POPUP CARD 1 MUSEUM OF DEAD       -->
+
+
+            <div class="popupWrapper">
+                <div class="popup">
+                    <div class="popupClose">&times;</div>
+                    <div class="popupContent">
+                        <h2>Museum of Death</h2>
+                        <hr>
+                        <p>From paintings by serial killers to shrunken heads, New
+                            Orleans’s
+                            Museum of
+                            Death displays as
+                            many approaches to death as it can fit within its four walls. Be happy for being
+                            alive
+                            while
+                            looking to Death in the eyes
+                        </p>
+                        <div class="images">
+                            <img src="supplierImages/museumOfDeadImg1.jpg" alt="museum of death image 1">
+                            <img src="supplierImages/museumOfDeadImg2.jpg" alt="museum of death image 2">
+                            <img src="supplierImages/museumOfDeadImg4.jpg" alt="museum of death image 3">
+                        </div>
+                        <p>Location: 227 Dauphine St.New Orleans, LA 70112 <br>Phone: (504) 593-3968</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--          CARD 2 WALK ONS           -->
+
+            <div id="card2" class="card card2">
+                <div class="card-container">
+                    <img src="supplierImages/walkOnsImg3.jpg" alt="walk ons logo">
+                </div>
+                <div class="details">
+                    <h3>Walk On's</h3>
+                    <p>A casual sport bar for the entire family or for grabbing a drink with friends</p>
+                    <button class="btn btn2 card-btn">Read More</button>
+                </div>
+            </div>
+
+
+            <!--     POPUP CARD 2 WALK ONS       -->
+
+            <div class="popupWrapper">
+                <div class="popup">
+                    <div class="popupClose">&times;</div>
+                    <div class="popupContent">
+                        <h2>Walk-On's Bistreaux and Bar</h2>
+                        <p>A place where over-the-top enthusiasm and culture is the daily norm.<br> Walk-On's is
+                            the
+                            perfect
+                            place to grab a bite or a beer, bring the family for dinner, party
+                            with friends or head before, during or after the game. Famous for an authentic,
+                            mouthwatering
+                            Louisiana cuisine prepared fresh in a
+                            from-scratch kitchen.
+                        </p>
+                        <div class="images">
+                            <img src="supplierImages/walkOnsImg1.jpg" alt="walk Ons food">
+                            <img src="supplierImages/walkOnsImg2.jpg" alt="walk Ons interior">
+                            <img src="supplierImages/walkOnsImg3.jpg" alt="walk Ons sport bar">
+                        </div>
+                        <p>Location: 1009 Poydras St., New Orleans, LA 70112 <br>Phone: (504) 309-6530</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--          CARD 3 ACE HOTEL           -->
+
+            <div id="card3" class="card card3">
+                <div class="card-container">
+                    <img src="supplierImages/acehotelImg2.jpg" alt="Singapore">
+                </div>
+                <div class="details">
+                    <h3>Ace Hotel</h3>
+                    <p>A luxurious hotel in a fantastic and popular location!</p>
+                    <button class="btn btn3 card-btn">Read More</button>
+                </div>
+            </div>
+
+
+            <!--     POPUP CARD 3 ACE HOTEL       -->
+
+            <div class="popupWrapper">
+                <div class="popup">
+                    <div class="popupClose">&times;</div>
+                    <div class="popupContent">
+                        <h2>Ace Hotel New orleans</h2>
+                        <p>A minute's walk from a streetcar stop, this hip boutique hotel in the Warehouse
+                            District is a
+                            19-minute walk from Bourbon Street and a mile from Jackson Square. There are 5 chic
+                            restaurants and bars. Other amenities include a rooftop pool, a 24-hour gym and a
+                            retro
+                            photo booth. There's regular live entertainment. Pets are welcome.</p>
+
+                        <div class="images">
+                            <img src="supplierImages/acehotelImg1.jpg" alt="ace hotel image">
+                            <img src="supplierImages/acehotelImg2.jpg" alt="ace hotel pool">
+                            <img src="supplierImages/acehotelImg3.jpg" alt="ace hotel lobby">
+                        </div>
+                        <p>Address: 600 Carondelet St, New Orleans, LA 70130, United States <br>Phone: +1
+                            504-900-1180
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--          CARD 4 LOUISIANA CHILDREN'S MUSEUM         -->
+
+
+            <div id="card4" class="card card4">
+                <div class="card-container">
+                    <img src="supplierImages/childrenMuseum3.jpg" alt="Singapore">
+                </div>
+                <div class="details">
+                    <h3>Children's Museum</h3>
+                    <p>interactive exhibits such as climbing wall, art and more!</p>
+                    <button class="btn btn4 card-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <!--     POPUP CARD 4 LOUISIANA CHILDREN'S MUSEUM        -->
+
+        <div class="popupWrapper">
+            <div class="popup">
+                <div class="popupClose">&times;</div>
+                <div class="popupContent">
+                    <h2>
+                        Louisiana Children's Museum</h2>
+                    <p>New Orleans most playful place for children filled with hands-on exhibits. Explore,
+                        experience, and learn with the Louisiana Children's Museum!
+                        Discover 8.5 acres of in-and-outdoor activities... Come play with us today!
+                    </p>
+                    <div class="images">
+                        <img src="supplierImages/childrenMuseum1.jpg" alt="children museum">
+                        <img src="supplierImages/childrenMuseum2.jpeg" alt="museum outside">
+                        <img src="supplierImages/childrenMuseum3.jpg" alt="playground">
+                    </div>
+                    <p>Address: 15 Henry Thomas Dr, New Orleans, LA 70124, United States<br> Phone: +1
+                        504-523-1357
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--          LAST SECTION - THE FOOTER           -->
+
+
+    <footer>
+        <div class="footer-content">
+            <footer>
+                <div class="mainFooter">
+                    <div><img src="images/logo2.png" alt="logo Mardi Gras" class="logoFooter"></div>
+                    <div>
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="https://www.mardigrasworld.com/tickets/" target=" _blank">Tickets</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Sponsors</h3>
+                        <ul>
+                            <li><a href="http://www.museumofdeath.net/" target="_blank">Museum of Death</a></li>
+                            <li><a href="https://locations.walk-ons.com/walk-ons-sports-bistreaux-new-orleans-fdb5f3647aa1?utm_source=google&utm_medium=Yext"
+                                    target="_blank">Walk
+                                    On's</a></li>
+                            <li><a href="https://www.acehotel.com/neworleans/" target="_blank">ACE hotel</a></li>
+                            <li><a href="https://www.lcm.org/" target="_blank">Children's Museum</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Social Media</h3>
+                        <ul>
+                            <li><a href="https://twitter.com/nolamardigras?lang=en" target="_blank"><i
+                                        class="fab fa-twitter">&nbsp Twitter</i>
+                                </a></li>
+                            <li><a href="https://www.facebook.com/MardiGrasNewOrleans/" target="_blank"><i
+                                        class="fab fa-facebook">&nbsp Facebook</i>
+                                </a></li>
+                            <li><a href="https://www.instagram.com/mardigrasneworleans/?hl=en" target="_blank"><i
+                                        class="fab fa-instagram">&nbsp Instagram</i>
+                                </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="newsletter">
+                        <h3>Subscribe</h3>
+                        <p>Enter your email to stay tuned</p>
+                        <form action="">
+                            <input type="text" id="subscribe" placeholder="Email"><br>
+                            <input type="button" value="Subscribe" class="formBtn">
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <p>Mardi Gras</p>
+                    <p>Copyright &copy; 2021</p>
+                    <p>Created by Chen Gutt</p>
+                </div>
+
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/linkToTrivia.js"></script>
+</body>
+
+
+</html>
