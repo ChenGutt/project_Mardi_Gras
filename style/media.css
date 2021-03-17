@@ -257,8 +257,9 @@ button:hover {
 @media screen and (max-width: 900px) {
 
     .theHeader {
+        background-attachment: local;
         width: 100vw;
-        height: 60vh;
+        height: 100vh;
     }
 
     .mainTitles {
