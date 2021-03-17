@@ -12,11 +12,6 @@ function playTrivia(btnElement) {
             window.open("triviaGame.html", 'trivia', 'height=600,width=350');
         }
 
-
-        // if (window.focus) {
-        //     newwindow.focus()
-        // }
-        // return false;
     })
 
 }
