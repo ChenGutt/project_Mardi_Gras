@@ -664,7 +664,7 @@ section p {
 
     }
 
-    .popup {
+    .popupWrapper {
         height: 100vh;
     }
 }
