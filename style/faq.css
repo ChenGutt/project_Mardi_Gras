@@ -202,5 +202,6 @@ h5 a:hover {
 @media screen and (max-width:768px) {
     .theHeader {
         height: 90vh;
+        background-attachment: local;
     }
 }
