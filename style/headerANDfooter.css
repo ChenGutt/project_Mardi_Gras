@@ -180,13 +180,13 @@
 
 
      .container {
-         height: 60vh;
+         height: 90vh;
      }
 
      .nav-links {
          position: fixed;
          right: 0px;
-         height: 50vh;
+         height: 80vh;
          top: 10vh;
          background-color: rgba(70, 65, 70, 0.582);
          display: flex;

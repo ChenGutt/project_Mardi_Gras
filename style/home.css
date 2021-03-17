@@ -506,6 +506,9 @@ section p {
 
     .theHeader {
         background-attachment: local;
+        background-position: left;
+        height: 100vh;
+
 
     }
 
@@ -515,17 +518,18 @@ section p {
         justify-self: center;
         align-self: end;
         width: 100px;
-        background-color: rgba(0, 0, 0, 0.664);
     }
 
     #trivia button {
-        font-size: 1.2rem;
+        font-size: 1rem;
         ;
-        text-align: center;
+
     }
 
     #weather {
-        display: none;
+        font-size: 0.4rem;
+        margin-bottom: 8px;
+
 
     }
 
@@ -533,28 +537,29 @@ section p {
         grid-column: 1/7;
         grid-row: 3/4;
         text-align: center;
+
         height: 0;
     }
 
     .mainTitles p {
         color: #fff;
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-shadow: 8px 8px 10px #000;
-        background-color: rgba(0, 0, 0, 0.589);
+        /* background-color: rgba(0, 0, 0, 0.589); */
 
     }
 
     .mainTitles h1 {
         color: #fff;
-        font-size: 2.3rem;
+        font-size: 3rem;
         text-shadow: 8px 8px 10px #000;
 
     }
 
     .scrollDownButton {
         grid-column: 2/4;
-        grid-row: 4/4;
-        align-self: start;
+        grid-row: 3/4;
+        align-self: end;
 
     }
 

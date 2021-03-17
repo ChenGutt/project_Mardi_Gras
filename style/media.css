@@ -332,6 +332,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .top__section {
+        background-attachment: local;
+    }
+
     .galleryPlayer p {
         font-size: 1rem;
     }

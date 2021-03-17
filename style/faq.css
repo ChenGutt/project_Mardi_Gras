@@ -201,6 +201,6 @@ h5 a:hover {
 
 @media screen and (max-width:768px) {
     .theHeader {
-        height: 60vh;
+        height: 90vh;
     }
 }
