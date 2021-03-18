@@ -494,7 +494,7 @@ section p {
 }
 
 .popupContent .popupBtn {
-    background-color: purple;
+    background-color: #000;
     width: 150px;
     padding: 3px;
     color: #ccc;
@@ -508,6 +508,8 @@ section p {
 .popupContent .popupBtn:hover {
     background-color: rgba(139, 20, 139, 0.815);
     color: #fff;
+    width: 155px;
+
 }
 
 
@@ -681,8 +683,9 @@ section p {
     }
 
     .popup {
-        width: 100vw;
-        height: 90vh;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .popupContent h2 {
