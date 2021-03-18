@@ -693,8 +693,8 @@ section p {
     }
 
     .images img {
-        width: 150px;
-        height: 100px;
+        width: 100px;
+        height: 80px;
     }
 
     .popupContent .popupBtn {
