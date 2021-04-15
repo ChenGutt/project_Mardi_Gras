@@ -11,7 +11,7 @@
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    filter: brightness(40%);
+    filter: brightness(80%);
 }
 
 nav {
@@ -27,7 +27,7 @@ nav {
 
 .mainTitles h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     letter-spacing: 4px;
     font-family: var(--mainFont);
     text-shadow: 8px 8px 10px #000;
@@ -36,7 +36,7 @@ nav {
 
 .mainTitles p {
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.486);
     font-size: 1.6rem;
     font-family: serif;
     text-shadow: 8px 8px 10px #000;
