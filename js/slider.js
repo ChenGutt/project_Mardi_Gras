@@ -1,7 +1,7 @@
 //   IMAGE CAROUSEL
 
 
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -15,9 +15,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    let i;
+    let slides = document.querySelectorAll(".mySlides");
+    let dots = document.querySelectorAll(".dot");
     if (n > slides.length) {
         slideIndex = 1
     }
