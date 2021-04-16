@@ -20,7 +20,7 @@
 #weather {
     grid-column: 1/2;
     grid-row: 2/3;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.678);
     font-size: 0.8rem;
     align-self: center;
     text-align: center;
@@ -45,7 +45,7 @@
 }
 
 #trivia button {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: bold;
     background-color: transparent;
     outline: none;
@@ -53,6 +53,7 @@
     color: rgba(255, 255, 255, 0.678);
     font-family: var(--subFont);
     cursor: pointer;
+    font-family: var(--headFont);
 }
 
 #trivia button:hover {

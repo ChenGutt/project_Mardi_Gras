@@ -178,7 +178,7 @@ button:hover {
     grid-template-columns: 10% 1fr 10%;
     grid-template-areas:
         ". galleryPlayer .";
-    background: linear-gradient(rgba(23, 25, 29, 0.5), rgba(23, 25, 29, 0.6)), url(../videoImages/headerVideoGallery.jfif);
+    background: linear-gradient(rgba(23, 25, 29, 0.2), rgba(23, 25, 29, 0.1)), url(../videoImages/headerVideoGallery.jfif);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ button:hover {
 }
 
 .galleryPlayer h1 {
-    color: rgba(255, 255, 255, 0.411);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 5em;
     font-family: var(--mainFont);
     text-shadow: 8px 8px 10px #000;
@@ -214,6 +214,7 @@ button:hover {
     border-radius: 10px;
     border: none;
     font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.713);
 }
 
 .videos {
