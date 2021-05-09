@@ -178,7 +178,7 @@
 
  @media screen and (max-width: 768px) {
 
-     /*          NAVIGATION MOBILE = SIDEVAR          */
+     /*          NAVIGATION MOBILE = SIDEBAR          */
 
 
 
@@ -203,11 +203,11 @@
 
      .nav-links li {
          opacity: 0;
-         padding: 20px;
+         padding: 40px;
      }
 
      .nav-links li a {
-         font-size: 0.6rem;
+         font-size: 1rem;
      }
 
      .burger {
